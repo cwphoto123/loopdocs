@@ -54,7 +54,7 @@ You can close the Terminal application now. You’re done with it. You do not ne
 
 If you have something go wrong in Homebrew installation, want to delete it and start fresh, the uninstall command is:
 
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`  <---This may be outdated as the makers of Homebrew have moved from "ruby" to "bash"
 
 Copy and paste that entire line into Terminal application. Then you can retry the installation of Homebrew using the install command listed earlier in this page.
 
