@@ -136,13 +136,13 @@ Error message: This one could be a variety of error messages, so there's not one
 
 Solution: You'll need to uninstall Homebrew and then resinstall. Two simple copy and paste commands in Terminal.
 
-First you need to uninstal using this command in Terminal app:
+First you need to uninstall using this command in Terminal app:
 
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`   <------- This probably needs to change as well (as it referes to ruby rather thann bash) but I don't know what the new command should be
 
 And then repeat the installation command from step 7 in the build process by using this command in Terminal app:
 
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
 Now try building your Loop app again, you shouldn't have any problems.
 
